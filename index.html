@@ -11,20 +11,20 @@
 </head>
 <body class="page">
   <header class="header">
-    <h1 class="header-logo">Todo App</h1>
+    <h1 class="header__logo">Todo App</h1>
     <img
-      class="header-img"
+      class="header__img"
       src="./eisenhower-matrix.jpg"
       alt="Eisenhower matrix">
-    <a class="header-more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="header__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
 
   <main class="main">
     <section>
-      <label class="new-task tasks-label" for="new-task">Add Item</label>
+      <label class="new-task__label tasks__label" for="new-task">Add Item</label>
       <div class="task-wrapper">
         <input
-          class="task tasks-input"
+          class="task tasks__input"
           id="new-task"
           type="text"
           aria-label="Edit task">
@@ -36,14 +36,14 @@
       <h2 class="section-title">Todo</h2>
       <ul class="task-list" id="incomplete-tasks">
         <li class="tasks">
-          <input class="tasks-checkbox" type="checkbox">
-          <label class="task tasks-label">Pay Bills</label>
+          <input class="tasks__checkbox" type="checkbox">
+          <label class="task tasks__label">Pay Bills</label>
           <input
-            class="task tasks-input"
+            class="task tasks__input"
             type="text"
             aria-label="Edit task">
-          <button class="btn edit">Edit</button>
-          <button class="btn delete">
+          <button class="btn btn__edit">Edit</button>
+          <button class="btn btn__del">
             <img
               class="btn-del-img"
               src="./remove.svg"
@@ -51,15 +51,15 @@
           </button>
         </li>
         <li class="tasks edit-mode">
-          <input class="tasks-checkbox"type="checkbox">
-          <label class="task tasks-label">Go Shopping</label>
+          <input class="tasks__checkbox"type="checkbox">
+          <label class="task tasks__label">Go Shopping</label>
           <input
-            class="task tasks-input"
+            class="task tasks__input"
             type="text" 
             value="Go Shopping"
             aria-label="Edit task">
-          <button class="btn edit">Save</button>
-          <button class="btn delete">
+          <button class="btn btn__edit">Save</button>
+          <button class="btn btn__del">
             <img
               class="btn-del-img"
               src="./remove.svg"
@@ -73,14 +73,14 @@
       <h2 class="section-title">Completed</h2>
       <ul class="task-list" id="completed-tasks">
         <li class="tasks">
-          <input class="tasks-checkbox" type="checkbox" checked>
-          <label class="task tasks-label">See the Doctor</label>
+          <input class="tasks__checkbox" type="checkbox" checked>
+          <label class="task tasks__label">See the Doctor</label>
           <input
-            class="task tasks-input"
+            class="task tasks__input"
             type="text"
             aria-label="Edit task">
-          <button class="btn edit">Edit</button>
-          <button class="btn delete">
+          <button class="btn btn__edit">Edit</button>
+          <button class="btn btn__del">
             <img
               class="btn-del-img"
               src="./remove.svg"
